@@ -1,48 +1,48 @@
 ## Tarefa 001 - 25/05/2022 - Questionário - Perfil Estudante
 
-**1. Matrícula:** 202004741
+<b>1. Matrícula:<\b> 202004741
 
-**2. Nome:** Adriel Lenner Vinhal Mori
+<b>2. Nome:<\b> Adriel Lenner Vinhal Mori
 
-**3. Qual seu conhecimento/experiência em relação ao desenvolvimento de software?**
+<b>3. Qual seu conhecimento/experiência em relação ao desenvolvimento de software?<\b>
 
 	Meu contato envolvendo o desenvolvimento de software está ligado a experiência que 
 obtive com as disciplinas cursados ao decorrer da minha graduação até então, e também com projetos na área 
 de Inteligência artificial das quais participo.
 
-**4. Quais Linguagens de Programação você domina?**
+<b>4. Quais Linguagens de Programação você domina?<\b>
 
 	Minha interação maior são com as linguagens Python, Java, JS e TypeScript. 
 
-**5. Conhece o paradigma de programação orientado a objetos?**
+<b>5. Conhece o paradigma de programação orientado a objetos?<\b>
 
 	Sim.
 
-**6. Tem alguma experiência com desenvolvimento de Serviços _Rest_?**
+<b>6. Tem alguma experiência com desenvolvimento de Serviços _Rest_?<\b>
 
 	Sim. Trabalhado com linguagem Java
 
-**7. Tem conhecimento sobre bancos de dados relacionais?**
+<b>7. Tem conhecimento sobre bancos de dados relacionais?<\b>
 
 	Sim. Usualmente utilizo a ferramenta o PgAdmin 4 para trabalhar com banco de dados relacional.
 
-**8. Tem conhecimento sobre bancos de dados não relacionais (_NoSQL_)?**
+<b>8. Tem conhecimento sobre bancos de dados não relacionais (_NoSQL_)?<\b>
 
 	Não.
 
-**9. Tem conhecimento a respeito de controle de versões? Sabe usar corretamente softwares de controle de versão, dentre eles o _github_?**
+<\b>9. Tem conhecimento a respeito de controle de versões? Sabe usar corretamente softwares de controle de versão, dentre eles o _github_?<\b>
 
 	Sim. Utilizo o gitHub com frequência.
 
-**10. Tem conta no _github_?**
+<b>10. Tem conta no _github_?<\b>
 
 	Nome do usuário: adrielmori
 
-**11. Você possui algum impedimento para trabalhar em equipe?**
+<b>11. Você possui algum impedimento para trabalhar em equipe?<\b>
 
 	Não.
 
-**12. Você possui equipamento adequado para a implementação das atividades relacionadas à disciplina? Atividades complementares, extra-classe.**
+<b>12. Você possui equipamento adequado para a implementação das atividades relacionadas à disciplina? Atividades complementares, extra-classe.<\b>
 
 	Sim.
 
