@@ -20,10 +20,9 @@ Em suma, uma API REST é essencial para comunicação entre aplicações para es
 
 Desta maneira, pode-se destacar suas características mais importantes:
 
-
-Trabalhar com requisições em multiplataformas, uma vez que requisições HTTP feitas em uma REST API retornam dados em formato JSON, onde a camada front-end da aplicação é capaz de fazer o tratamento adequado para exibição dos resultados de acordo com o tipo de dispositivo utilizado.
-Garante maior confiabilidade, escalabilidade e usabilidade por meio de sua característica de integração com diversas aplicações;
-Segmentação entre aplicações front-end e back-end. Este é um característica muito importante que confere a proteção em armazenamento de dados, uma vez que é feita apenas uma troca de informações entre as camadas com o objetivo de resgatar dados, seja para inserir ou deletar registros;
- Permite que aplicações acessem bancos de dados de distintos servidores, possibilitando maior confiabilidade para aplicações em grandes escalas. Essa característica confere o critério de visibilidade ao utilizar estes recursos. 
-Extremamente útil para aplicações em nuvem. Essa característica pode ser exaltada pois o acesso do serviço por meio de uma API necessita de ajustes na interpretação da URL, e as chamadas com a tecnologia REST são propostas para que sejam feitas sem estado. E assim, possibilitando também que a API REST também possa ser usada para dados de mapeamento de uma plataforma em nuvem para uma data center, e vice-versa.
+- Trabalhar com requisições em multiplataformas, uma vez que requisições HTTP feitas em uma REST API retornam dados em formato JSON, onde a camada front-end da aplicação é capaz de fazer o tratamento adequado para exibição dos resultados de acordo com o tipo de dispositivo utilizado;
+- Garante maior confiabilidade, escalabilidade e usabilidade por meio de sua característica de integração com diversas aplicações;
+- Segmentação entre aplicações front-end e back-end. Este é um característica muito importante que confere a proteção em armazenamento de dados, uma vez que é feita apenas uma troca de informações entre as camadas com o objetivo de resgatar dados, seja para inserir ou deletar registros;
+- Permite que aplicações acessem bancos de dados de distintos servidores, possibilitando maior confiabilidade para aplicações em grandes escalas. Essa característica confere o critério de visibilidade ao utilizar estes recursos;
+- Extremamente útil para aplicações em nuvem. Essa característica pode ser exaltada pois o acesso do serviço por meio de uma API necessita de ajustes na interpretação da URL, e as chamadas com a tecnologia REST são propostas para que sejam feitas sem estado. E assim, possibilitando também que a API REST também possa ser usada para dados de mapeamento de uma plataforma em nuvem para uma data center, e vice-versa.
 
