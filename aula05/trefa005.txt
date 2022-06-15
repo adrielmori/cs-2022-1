@@ -22,6 +22,7 @@ A linguagem de programação Python foi criada em 1991 por Guido Van Rossumem e 
 Uma das principais características que diferencia a linguagem Python das outras é a legibilidade dos programas escritos, onde o uso de marcações é reduzido, deixando a linguagem visualmente mais limpa, de fácil compreensão e leitura. 
 Atualmente, a linguagem é gerenciada pela Python Software Foundation. Possui uma licença de código aberto, chamada Python Software Foundation License, que é compatível com a GNU General Public License a partir da versão 2.1.1 e incompatível em certas versões anteriores.É uma linguagem de programação multi-paradigma, pois suporta orientação de objeto, programação imperativa e, em menor escala, programação funcional. 
 As vantagens para sua implementação são as de que o Python possui Grande quantidade de bibliotecas disponíveis, grande comunidade de usuários, documentação extensa e número expressivo de oportunidades no mercado de trabalho.
+
 ## C++
 
 A Linguagem C++ é uma extensão da linguagem C que incorpora recursos de Orientação a Objetos que tinha como objetivo o desenvolvimento desta linguagem para melhorar uma versão do núcleo Unix. A linguagem C++ herdou todas as características de C, e adiciona recursos de programação orientada a objetos [2]. Bjarne Stroustrup desenvolveu o C++ em 1983 no Bell Labs, adicionando–o novas características, como funções virtuais, sobrecarga de operadores, herança múltipla, gabaritos e tratamento de exceções.
@@ -40,8 +41,8 @@ Para ampliar melhor as características da linguagem JAVA, é importante ressalt
 a) Primitivo: define oito tipos de dados, com o respectivo tamanho da memória necessária para armazená-los através da tabela de alocação, sem possuir métodos adicionais. São dados primitivos: 
 i) byte, com tamanho de 1 byte = 8 bits, usado para armazenar número inteiros de -128 a 127. 
 ii) short, com tamanho de 2 bytes = 16 bits, usado para armazenar números inteiros de -32.768 a 32.767.
- iii) int, com tamanho de 4 bytes = 32 bits, usado para armazenar números inteiros de -2.147.483.648 a 2.147.483.647.
- iv) long, com tamanho de 8 bytes = 64 bits, usado para armazenar números inteiros de -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807. 
+iii) int, com tamanho de 4 bytes = 32 bits, usado para armazenar números inteiros de -2.147.483.648 a 2.147.483.647.
+iv) long, com tamanho de 8 bytes = 64 bits, usado para armazenar números inteiros de -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807. 
 v) float, com tamanho de 4 bytes = 32 bits, usado para armazenar números racionais com tamanho suficiente de 6 e 7 dígitos decimais. 
 vi) double, com tamanho de 8 bytes = 64 bits, usado para armazenar números racionais com tamanho suficiente de 15 dígitos decimais. 
 vii) boolean, com tamanho de 1 bit, usado para armazenar dois valores, verdadeiro e falso
@@ -51,18 +52,18 @@ Os tipos não-primitivos são referenciados a objetos e são definidos pelo dese
 Em uma visão geral, as vantagens de Java se encontram em sua simplicidade, pois apresenta sintaxe direta e acolhedora, sendo fácil de escrever, aprender, depurado facilmente, consequência de: 
 i) a orientação a objetos aumenta bastante a flexibilidade e a capacidade de reutilização do código com as implementações dos método 
 ii) os modificadores e encadeamentos aumenta a segurança e a vinculação de dados, ao mesmo tempo que gerencia o acesso para as classes;
- iii) é uma linguagem barata, pois podem ser facilmente executadas em qualquer máquina; 
+iii) é uma linguagem barata, pois podem ser facilmente executadas em qualquer máquina; 
 iv) como se trata de uma linguagem distribuída, permite o compartilhamento de dados e programas entre vários computadores, melhorando o desempenho; 
 v) Como Java trabalha com multi thread, permite obter o máximo de utilização da CPU. 
 Várias threads compartilham uma área de memória comum e aumenta e eficiência o desempenho do aplicativo;
- vi) a JVM faz com que sempre que os objetos não são mais usados pelo programa, e não se referem a nada que não precise ser desreferenciado ou removido pela programação explícita; 
+vi) a JVM faz com que sempre que os objetos não são mais usados pelo programa, e não se referem a nada que não precise ser desreferenciado ou removido pela programação explícita; 
 vii) java pode ser executado em diferentes plataformas, fornecendo um forte vantagem em portabilidade; 
 viii) é uma linguagem de programação de alto nível, pois é uma linguagem legível por humanos. É semelhante à linguagem humana e tem uma sintaxe muito simples e fácil de manter
 Em contrapartida, como se trata de uma linguagem usada a muitos anos, desde sua criação, foram feitas diversas atualizações que, mesmo mantendo os critérios estáveis, não solucionaram totalmente os problemas. Desta foram, o Java também apresentam algumas desvantagens: 
 i) oferece baixo desempenho comparados a linguagens como C e C++, pois cada código deve ser interpretado para o código de nível de máquina.
- ii) a linguagem somente se concentra no armazenamento, porém peca no backup;
- iii) requer quantidade maior de espaço de memória em comparação com outras linguagens como C e C ++. Durante a execução da coleta de lixo, a eficiência da memória e o desempenho do sistema podem ser afetados adversamente.
- iv) códigos para implementação possuem muitas frases longas e complexas, que são difíceis de entender a curto prazo.
+ii) a linguagem somente se concentra no armazenamento, porém peca no backup;
+iii) requer quantidade maior de espaço de memória em comparação com outras linguagens como C e C ++. Durante a execução da coleta de lixo, a eficiência da memória e o desempenho do sistema podem ser afetados adversamente.
+iv) códigos para implementação possuem muitas frases longas e complexas, que são difíceis de entender a curto prazo.
 
 
 ### Bibliografia:
