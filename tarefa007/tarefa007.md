@@ -16,7 +16,7 @@
     2.3 - O que já era conhecido por você.
 3. Escrever um parágrafo com suas palavras comentando o conteúdo do artigo.
 
-##1.6 6 Questões para a qualidade do código [RUBY CONF + BR]
+## 1.6 6 Questões para a qualidade do código [RUBY CONF + BR]
 
 Este artigo trata da conceituação em qualidade de código relacionado a palestra realizada na RubyConf - congresso que reúne profissionais que utilizam a linguagem Ruby - pelo palestrante Bryan Helmkamp - fundador da CodeClimate. O objetivo é de detalhar sobre a qualidade do código, medição de complexidade, usabilidade/manutenibilidade de projetos antigos e sobre o que prejudica a codificação visando um código *clean* - limpo.   
 
@@ -24,7 +24,9 @@ Neste artigo, são muito bem trabalhados e definidos, de maneira breve, os 6 con
 
 Dentre as maiores novidades que me deparei lendo o conteúdo foi em relação ao medo ao codificar. Este “atraso” para as produções codificadas está relacionado muitas vezes com mudanças e com o trabalho em contato com o código, e isso afeta diretamente a qualidade para a questão de código limpo - como é trabalhado pelo autor no tópico 6.
 
-
+<figure>
+   <img align=center height=.2 src=https://user-images.githubusercontent.com/82418789/176535735-c36a096c-e11f-4974-a0d2-2a8661179ac3.png>
+</figure>
 
 De acordo com o fluxograma, o início de um código limpo deve se iniciar com o pensamento por parte do desenvolvedor em não introduzir bugs, mas sabendo que ao se trabalhar com um código e eventualmente alterá-lo, estamos totalmente sujeitos a bugs. Também é destacado a complexidade do código em relação às suas várias ramificações, e como isso de fato inicia-se no começo da interação do programador com a codificação, podendo assim, chegarmos no conceito do “medo”, como foi assim trabalhado pelo autor.
 
@@ -35,4 +37,5 @@ Levando em consideração as 6 questões principais abordadas pelo autor, sendo 
 * Qual o tamanho ideal de um pull request?
 * Que tipo de código você está fazendo?
 * Qual o maior inimigo do código limpo?
+
 Sendo assim, dos quais já me contextualizava antes de estudar o artigo são relacionados a organização, a importância do objetivo do código, “quanto mais testes, melhor”; trabalho e comunicação em equipe, sempre priorizando metas em comum.
