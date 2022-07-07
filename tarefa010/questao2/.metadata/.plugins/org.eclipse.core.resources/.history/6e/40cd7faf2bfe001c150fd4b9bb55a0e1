@@ -1,0 +1,74 @@
+package questao02;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Agenda {
+	
+	private List<Contato> contatos = new ArrayList<Contato>();
+	
+	public List<Contato> getListaContatos() {
+		return contatos;
+	}
+
+	public void setListaContatos(List<Contato> listaContatos) {
+		this.contatos = listaContatos;
+	}
+	
+	public void adicionaContato(Contato contato) {
+		contatos.add(contato);
+	}
+	
+	public Contato buscaContato(String nomeContato) {
+		
+		Contato novoContato = new Contato();
+		for (Contato contato : contatos) {
+			if(contato.getNome().equals(nomeContato)) {
+				novoContato = contato;
+			}
+		}
+		return novoContato;
+	}
+
+	public void removeContato(String nomeContato) {
+		
+		Iterator<Contato> iterator = contatos.iterator();
+		int aux = 0;
+		
+		while (iterator.hasNext()){
+			
+			Contato contatoRemover = iterator.next();
+			if (contatoRemover.getNome().equals(nomeContato)){
+				iterator.remove();
+				aux++;
+			}
+		}
+			
+		if(aux==0) {
+			System.out.println("Contato de " + nomeContato + " não existe no sistema.");
+		} else {
+			System.out.println("Contato de " + nomeContato + " foi excluido");
+		}	
+	}
+	
+	public void removeContato(Contato contato){
+	        
+	        for (Contato auxContato: this.contatos){
+	            if(auxContato.equals(contato)){
+	                this.contatos.remove(auxContato);
+	                break;
+	            }
+	        }
+	}
+
+	@Override
+	public String toString() {
+		return "Agenda [contatos=" + contatos + ", getListaContatos()=" + getListaContatos() + ", getClass()="
+				+ getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+	}
+
+
+}
+
+

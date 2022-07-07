@@ -1,0 +1,20 @@
+package questao02;
+
+public class Main{
+    public static void main(String args[]) {
+    	
+        Agenda agenda = new Agenda();
+          
+        Contato contato1 = new Contato("Adriel Mori", "adrielmori@discente.ufg.br");
+        Contato contato2 = new Contato("Igor Moreira", "igorpadua@discente.ufg.br");
+        
+        agenda.toString();
+        
+        agenda.adicionaContato(contato1);
+        agenda.adicionaContato(contato2);
+        
+        //agenda.removeContato("Igor Moreira");       
+
+        agenda.listarContatos();
+    }
+}
