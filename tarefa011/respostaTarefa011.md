@@ -8,18 +8,20 @@ O estilo padronizado de codificação guia os projetos de software de modo com q
  
  *Exemplos aplicados:* Uma das práticas de padronização da codificação mais bem disseminada, utilizada e eficaz se trata da identificação - ato de espaçar/separar os níveis de codificação em linhas vazias, buscando separar componentes da implementação com funções e/ou características diferentes.
 
-> int main(){
->	
->	int x, y, aux;
->	double z, w;
->
->	pritnf(“Adicione um valor inteiro\n”);
->	scanf(“%d”, &x);
->	
->	printf("%d", (x+40));
->
->	return 0;
->}
+````
+int main(){
+
+   int x, y, aux;
+   double z, w;	   
+ 
+   pritnf(“Adicione um valor inteiro\n”);
+   scanf(“%d”, &x);
+   
+   printf("%d", (x+40));	
+   
+   return 0;
+}
+````
 
 ## **Reflexão**
 
@@ -28,21 +30,23 @@ O estilo padronizado de codificação guia os projetos de software de modo com q
  *Descrição de como utilizar:*Sua utilização é muito útil quando precisa-se acessar atributos nos metadados do seu programa; para eliminar e instanciar tipos em um assembly; para criar novos tipos em tempo de execução; para executar a associação tardia, acessar métodos em tipos criados em tempo de execução.
   
  *Exemplos aplicados:*
->import java.lang.reflect.*;
->     public class DumpMethods {
->      public static void main(String args[])
->      {
->         try {
->            Class c = Class.forName(args[0]);
->            Method m[] = c.getDeclaredMethods();
->            for (int i = 0; i < m.length; i++)
->            System.out.println(m[i].toString());
->         }
->         catch (Throwable e) {
->            System.err.println(e);
->         }
->      }
->   }
+````
+import java.lang.reflect.*;
+     public class DumpMethods {
+      public static void main(String args[])
+      {
+         try {
+            Class c = Class.forName(args[0]);
+            Method m[] = c.getDeclaredMethods();
+            for (int i = 0; i < m.length; i++)
+            System.out.println(m[i].toString());
+         }
+         catch (Throwable e) {
+            System.err.println(e);
+         }
+      }
+   }
+````
 [MCCLUSKEY, 1998]
 
 ## **Programação defensiva**
@@ -56,22 +60,25 @@ Em geral, programação defensiva é a criação de código para software de com
   *Exemplos aplicados:*  Um exemplo aplicado para a programação defensiva é Converter para o valor válido mais próximo. Observando o exemplo abaixo, onde temos um método que calcula o valor total de uma compra em um estabelecimento qualquer. Ele recebe os itens do carrinho e um valor de desconto opcional.
 
 
+````
+public class Cart{
+	public IEnumerable<CartItem> Items { get; set; }
+	
+  public double CalculateTotal(double discount) {
+		double total = 0.0d
 
->public class Cart{
->	public IEnumerable<CartItem> Items { get; set; }
->	public double CalculateTotal(double discount) {
->		double total = 0.0d
->
->		foreach (var cartItem in Items) {
->			total += cartItem.Value * cartItem.Quantity;}
->
->		total -= discount;
->
->		total = Math.Max(0.0d, total);
->
->		return total;
->	}
->}
+		foreach (var cartItem in Items) {
+			total += cartItem.Value * cartItem.Quantity;
+    }
+
+		total -= discount;
+
+		total = Math.Max(0.0d, total);
+
+		return total;
+	}
+ }
+ ````
 
 O método Math.Max retorna o maior valor entre 0 e o total calculado. Ou seja, o total calculado será sempre maior ou igual a zero (isso se os requisitos do sistema permitirem que compras resultem em zero). 
   
