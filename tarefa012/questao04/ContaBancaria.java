@@ -2,7 +2,7 @@ package questao04;
 
 public class ContaBancaria {
 
-    double saldo = 0;
+    double saldo = 0.0;
     
     void depositar(double deposito){
 
