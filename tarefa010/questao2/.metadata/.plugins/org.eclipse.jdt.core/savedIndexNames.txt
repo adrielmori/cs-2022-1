@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+E:\Users\Adriel\Documents\UFGRemoto\5_Semestre\CS\Devolutivas\tarefa010\questao2\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+2712118709.index
+2374354264.index
